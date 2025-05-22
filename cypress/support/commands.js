@@ -22,4 +22,11 @@
 //
 //
 // -- This will overwrite an existing command --
+<<<<<<< HEAD
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+=======
+// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+import 'cypress-real-events/support'
+>>>>>>> ce1ef15a501d73f3b0b3fe0ddf3cac3965aa5514
