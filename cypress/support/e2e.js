@@ -14,15 +14,10 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-<<<<<<< HEAD
-import './commands'
-=======
-import './commands'
-import 'cypress-xpath';     
+import './commands';
+import 'cypress-xpath';
 
 Cypress.on('uncaught:exception', (err, runnable) => {
-    // returning false prevents Cypress from failing the test
-    return false;
-  });
-  
->>>>>>> ce1ef15a501d73f3b0b3fe0ddf3cac3965aa5514
+  // returning false prevents Cypress from failing the test
+  return false;
+});
